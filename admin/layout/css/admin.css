@@ -1,0 +1,340 @@
+body{
+	background-color: #f1f2f6
+}
+/*start admin login */
+.login{
+	width: 300px;
+	margin:100px auto;
+}
+
+.login h4{
+	font-size: 25px;
+	color: #2e3546
+}
+
+.login input{
+	margin-bottom:10px ;
+	
+}
+/*end admin login */
+
+/*start bootstrap edit*/
+.navbar{
+	margin-bottom: 0;
+	border-radius:none;
+
+}
+
+.dropdown-menu>li>a{
+	padding: 10px 12px;
+	transition: all .5s;
+}
+
+.dropdown-menu>li a:hover{
+	background-color: #34495e;
+	padding-left: 14px;
+	font-weight: bold;
+	color: #ecf0f1
+}
+
+/*end bootstrap edit*/
+
+/*start dashbord*/
+
+.plus-toggle{
+	cursor: pointer;
+	color: #353b48
+}
+.plus-toggle:hover{
+	color: #535c68;
+}
+
+
+
+.statist{
+	background-color: #eceeef;
+	margin-top: 30px;
+	border: 1px solid white;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 12px;
+	color: white;
+	overflow: hidden;
+}
+.info{
+	float: right;
+}
+.statist i{
+	font-size: 80px;
+}
+
+.member{
+	background-color: #2980b9;
+}
+.member a , .pending a,.items a{
+	color: white;
+}
+.member a:hover,.pending a:hover,.items a:hover{
+	text-decoration: none;
+}
+
+.pending{
+	background-color: #c0392b;
+}
+
+.items{
+	background-color: #d35400;
+}
+.comments{
+	background-color: #8e44ad;
+}
+
+.statist span{
+	display: block;
+	font-size: 40px;
+}
+
+.latest{
+	margin-top: 30px;
+}
+
+.latest_ul li{
+	padding: 11px 7px;
+	overflow: hidden;
+}
+
+.latest_ul li:nth-child(odd){
+background-color: #ecf0f1;
+}
+
+.latest_ul .pull-right{
+	padding: 8px 14px;
+	margin-right: 5px;
+
+}
+/*end dashbord*/
+
+/*start user add form*/
+
+.useraddform button{
+	position: relative;
+  right: 34px;
+}
+
+/*end user add form*/
+
+
+/*start user form edit*/
+.h3edit{
+	color: #ff7f50;
+	margin:35px 0 
+}
+
+.userform{
+	margin-top: 20px;
+	background-color: #f1f2f6;
+	max-width: 350px;
+	max-height: 300px;
+	background-color: white;
+}
+.userform .flable{
+	margin-top: 15px;
+}
+.userform button{
+	
+	margin-top: 20px;
+	margin-left: 35%;
+}
+
+
+.coninput{
+	position: relative;
+}
+
+.astrisk{
+	position: absolute;
+	right: 9px;
+  	top: 8px;
+  	font-size: 23px;
+  	font-weight: bold;
+  	color: red
+
+	
+}
+
+.eye{
+	position: absolute;
+	right: 8px;
+  	top: 10px;
+  	cursor: pointer;
+}
+/*end user form edit*/
+
+/*start user add form */
+
+.conaddform{
+background-color: white;
+width: 41%;
+max-height: 648px;
+margin-top: 25px;
+margin-bottom: 25px;
+} 
+.adduser{
+  max-width: 421px;
+  margin: auto;
+}
+.adduser .form-groub{
+	  margin: 19px 0 13px;
+}
+.adduser input[type='submit']{
+	margin: 30px 0;
+}
+
+/*end user add form */
+
+/*start manage admin table*/
+.main-tr{
+	background-color: #101010;
+	font-size: 17px;
+  	color: white;
+}
+.main-table{
+	box-shadow: 0px 3px 11px rgb(140, 134, 134);
+}
+.main-table td{
+	vertical-align: middle !important;
+}
+
+
+/*end manage admin table*/
+
+/*start add cateogery*/
+
+.addcatogery input,
+.additem input
+{
+	margin-bottom: 15px;
+	
+}
+
+.addcatogery .form-control,
+.additem .form-control
+{
+	width: 43%;
+}
+
+.addcatogery .coninput .astrisk,
+.additem .coninput .astrisk
+{
+	position: absolute;
+	top: 7px;
+	left: 391px;
+}
+.btn_addcateogery{
+	margin:6px 0 30px;
+}
+/*end add cateogery*/
+
+/*start mamage cateogery*/
+
+.cateog h2{
+	cursor: pointer;
+}
+.option a{
+	text-decoration: none;
+	margin-right: 4px;
+	font-weight: bold;
+	color: black
+}
+.option span{
+	margin-right: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.option .active{
+	color:#c0392b ;
+	
+	box-shadow: 0px 1px 6px rgb(166, 126, 126);
+}
+
+.cateogery-head{
+	background-color:#D1DCE5  !important
+}
+
+.cateogery {
+  padding: 5px 15px;
+}
+.cateogery .cateog {
+	
+	position: relative;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.cateogery .cateog:hover{
+	background-color: #eee;
+}
+
+.cateogery .cateog .hidden-button{
+	position: absolute;
+	top:15px;
+	right: -160px;
+	transition: all .5s;
+	
+}
+.cateogery .cateog:hover .hidden-button{
+	right: 10px;
+}
+.cateogery .cateog .hidden-button a{
+	margin-right: 5px;
+}
+.cateogery .cateog .catspan{
+  background-color: white;
+  padding: 6px 8px;
+  margin-right: 8px;
+  border-radius: 6px;
+  color: white;
+}
+.cateogery .cateog .visible{
+	background-color: #e74c3c;
+}
+.cateogery .cateog .comment{
+	background-color: #7f8c8d;
+}
+.cateogery .cateog .ads{
+	background-color: #4b4b4b;
+}
+.cateogeryupdate{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+/*end mamage cateogery*/
+
+/*start add item */
+.btn_additem{
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+/*end add item*/
+
+/*start manage item*/
+
+
+
+.list_item li{
+	padding: 11px 7px;
+	overflow: hidden;
+}
+.list_item li:nth-child(odd){
+	background-color: #ecf0f1;
+}
+.list_item  .pull-right{
+	padding: 8px 14px;
+  margin-right: 5px;
+}
+
+
+/*end manage item*/
